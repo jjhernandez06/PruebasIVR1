@@ -14,7 +14,7 @@ while continuar == 'Si':
     motor.say(texto) # Se convierte el texto a voz
     motor.runAndWait() # Se ejecuta la voz
     continuar = input("Deseas continuar? Si/No: ")
-   # exit()
+    exit()
    
 
    
